@@ -2,25 +2,32 @@
     padding: 3em 0em 0em 0em;
     text-align: center;
 }
-.row > div {
+
+.row>div {
     float: left;
     height: 100px;
     width: 100px;
+    cursor: pointer;
 }
+
 .row {
     clear: both;
     width: 302px;
     margin: 0 auto;
 }
+
 .top {
     border-bottom: 1px solid black;
 }
+
 .bottom {
     border-top: 1px solid black;
 }
+
 .left {
     border-right: 1px solid black;
 }
+
 .right {
     border-left: 1px solid black;
 }
