@@ -61,7 +61,12 @@ function cellClicked() {
         (cells[8].textContent == "X" || cells[8].textContent == "O")) {
         result.textContent = "It's a Draw!";
     }
+    
+    if (result.textContent != "") {
+        result.classList.add("tracking-in-contract-bck-top");
+    }
 }
+
 
 gameBoard.addEventListener("click", resetGame)
 

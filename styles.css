@@ -4,7 +4,7 @@
 }
 
 .displayResult {
-    padding: 3em 0em 0em 0em;
+    padding: 0em 0em 0em 0em;
     text-align: center;
 }
 
@@ -15,6 +15,8 @@
     cursor: pointer;
     line-height: 100px;
     font-size: 75px;
+    font-family: 'Monofett', cursive;
+    color:ghostwhite;
 }
 
 .row {
@@ -24,17 +26,37 @@
 }
 
 .top {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid ghostwhite;
 }
 
 .bottom {
-    border-top: 1px solid black;
+    border-top: 1px solid ghostwhite;
 }
 
 .left {
-    border-right: 1px solid black;
+    border-right: 1px solid ghostwhite;
 }
 
 .right {
-    border-left: 1px solid black;
+    border-left: 1px solid ghostwhite;
+}
+
+.bounce-in-top {
+	-webkit-animation: bounce-in-top 1.1s both;
+	        animation: bounce-in-top 1.1s both;
+}
+
+.tracking-in-contract-bck-top {
+	-webkit-animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+.color-change-3x {
+	-webkit-animation: color-change-3x 10s linear infinite alternate both;
+	        animation: color-change-3x 10s linear infinite alternate both;
+}
+
+h1, h2 {
+    font-family: 'Press Start 2P', cursive;
+    color:ghostwhite;
 }
